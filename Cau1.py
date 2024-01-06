@@ -15,7 +15,7 @@ print("Tổng số khách hàng là:", total_customers)
 
 
 # #câu 2
-print ("câu 2:")
+print ("câu 55:")
 missing_customers = data.filter(col("CustomerID").isNull()).count()
 total_customers = data.count()
 missing_ratio = (missing_customers / total_customers) * 100
